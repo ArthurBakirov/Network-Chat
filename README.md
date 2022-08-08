@@ -4,9 +4,9 @@ Centralized console server and client for message exchange. Server receives mess
 Based on library boost::asio, and OneLoneCoder's network framework https://github.com/OneLoneCoder/olcPixelGameEngine/tree/master/Videos/Networking/Parts1%262
 
 List of commands:
-Ping - ping server, round trip time in ms\n
-Clients - get list of clients connected to the host
-Accept - accept incoming request if available
-Decline - delcilne incoming request if available
-Help  - help information
-ConnectTo 'client ID' - Request connection to the client with the specific ID
+Ping - ping server, round trip time in ms. 
+Clients - get list of clients connected to the host. 
+Accept - accept incoming request if available. 
+Decline - delcilne incoming request if available. 
+Help  - help information. 
+ConnectTo 'client ID' - Request connection to the client with the specific ID. 
