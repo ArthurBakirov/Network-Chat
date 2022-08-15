@@ -1,4 +1,6 @@
-#pragma once
+#ifndef NET_CONNECTION_H
+#define NET_CONNECTION_H
+
 #include "net_common.h"
 #include "net_message.h"
 #include "net_tsqueue.h"
@@ -277,3 +279,5 @@ namespace olc
     }; //connection
   } //namespace net
 } //namespace olc
+
+#endif /* End of NET_CONNECTION_H */

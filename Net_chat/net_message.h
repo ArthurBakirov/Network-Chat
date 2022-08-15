@@ -1,4 +1,6 @@
-#pragma once
+#ifndef NET_MESSAGE_H
+#define NET_MESSAGE_H
+
 #include "net_common.h"
 
 namespace olc
@@ -95,3 +97,5 @@ namespace olc
     };
   } //namespace net
 } //namespace olc
+
+#endif /* End of NET_MESSAGE_H */

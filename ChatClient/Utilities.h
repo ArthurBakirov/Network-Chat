@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_H
+#define UTILITIES_H
 
 enum class CustomMsgTypes : uint32_t
 {
@@ -33,7 +34,7 @@ struct Command
   uint32_t id = 0;
 };
 
-inline Command StrToCommand(const std::string& string)
+static Command StrToCommand(const std::string& string)
 {
   static std::unordered_map<std::string,CommandPrefix> const SimpleCommands =
         {
@@ -67,3 +68,5 @@ inline Command StrToCommand(const std::string& string)
   }
   return {CommandPrefix::Blank};
 } //Command StrToCommand(const std::string& string)
+
+#endif /* End of UTILITIES_H */

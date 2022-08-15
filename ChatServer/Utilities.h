@@ -1,3 +1,6 @@
+#ifndef UTILITIES_H
+#define UTILITIES_H
+
 enum class CustomMsgTypes : uint32_t
 {
   ServerAccept,
@@ -11,3 +14,5 @@ enum class CustomMsgTypes : uint32_t
   RequestAnswer,
   CloseClient,
 };
+
+#endif /* End of UTILITIES_H */

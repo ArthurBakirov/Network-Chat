@@ -1,0 +1,7 @@
+# compilation folders
+
+**/ChatClient/cmake-build-debug
+**/ChatServer/cmake-build-debug
+**/ChatClient/.idea
+**/ChatServer/.idea
+

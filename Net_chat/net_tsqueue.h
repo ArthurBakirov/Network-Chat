@@ -1,4 +1,6 @@
-#pragma once
+#ifndef NET_TSQUEUE_H
+#define NET_TSQUEUE_H
+
 #include "net_common.h"
 #include <condition_variable>
 
@@ -98,3 +100,5 @@ namespace olc
     }; //tsqueue
   } //namespace net
 } //namespace olc
+
+#endif /* End of NET_TSQUEUE_H */

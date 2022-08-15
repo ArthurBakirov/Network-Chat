@@ -1,4 +1,5 @@
-#pragma once
+#ifndef NET_SERVER_H
+#define NET_SERVER_H
 
 #include "net_common.h"
 #include "net_tsqueue.h"
@@ -184,3 +185,5 @@ namespace olc {
     }; //class server_interface
   } //namespace net
 } //namespace olc
+
+#endif /* End of NET_SERVER_H */

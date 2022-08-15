@@ -1,4 +1,5 @@
-#pragma once
+#ifndef NET_CLIENT_H
+#define NET_CLIENT_H
 
 #include "net_common.h"
 #include "net_message.h"
@@ -96,3 +97,5 @@ namespace olc
     }; //client_interface
   }//namespace net
 }//namespace olc
+
+#endif /* End of NET_CLIENT_H */

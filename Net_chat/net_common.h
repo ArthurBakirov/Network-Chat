@@ -1,4 +1,5 @@
-#pragma once
+#ifndef NET_COMMON_H
+#define NET_COMMON_H
 
 #include <iostream>
 #include <thread>
@@ -18,3 +19,5 @@
 #include <asio.hpp>
 #include <asio/ts/buffer.hpp>
 #include <asio/ts/internet.hpp>
+
+#endif /* End of NET_COMMON_H */

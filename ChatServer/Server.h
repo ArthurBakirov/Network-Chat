@@ -1,3 +1,6 @@
+#ifndef SERVER_H
+#define SERVER_H
+
 #include <olc_net.h>
 
 #include "Utilities.h"
@@ -15,3 +18,5 @@ protected:
 
   void OnMessage(std::shared_ptr<olc::net::connection<CustomMsgTypes>> client, olc::net::message<CustomMsgTypes>& msg) override;
 };
+
+#endif /* End of SERVER_H */
